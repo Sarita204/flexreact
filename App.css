@@ -1,10 +1,12 @@
-div{
+/* Task1 */
+div {
   margin: 5px;
 }
+
 .Main-container {
   display: flex;
   flex-direction: row;
-  border:2px solid green;
+  border: 3px solid green;
   height: 37rem;
 
 }
@@ -12,7 +14,7 @@ div{
 .Section-1 {
   text-align: center;
   flex: 0.5;
-  border:2px solid red;
+  border: 2px solid red;
 }
 
 .Section-2 {
@@ -20,18 +22,319 @@ div{
   display: flex;
   flex-direction: column;
   flex: 0.5;
-  border:2px solid red;
+  border: 2px solid red;
 
 }
 
 .Part-1 {
-text-align: center;
-flex:1;
-border:2px solid blue;
+  text-align: center;
+  flex: 1;
+  border: 2px solid blue;
 }
 
 .Part-2 {
   text-align: center;
-  flex:1;
-  border:2px solid blue;
+  flex: 1;
+  border: 2px solid blue;
+}
+
+/* Task2 */
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  height: 37rem;
+}
+
+.header {
+  text-align: center;
+  border: 2px solid maroon;
+  height: 3rem;
+}
+
+.Section {
+  display: flex;
+  border: 2px solid rgb(99, 11, 215);
+  height: 32rem;
+  flex-direction: row;
+
+}
+
+.BLOCK-1 {
+  text-align: center;
+  flex-direction: row;
+  flex: 0.5;
+  border: 2px solid red;
+}
+
+.BLOCK-2 {
+  text-align: center;
+  flex-direction: row;
+  flex: 0.5;
+  border: 2px solid red;
+}
+
+/* Task3 */
+
+.display-Container {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(229, 15, 15);
+  height: 37rem;
+}
+
+.Block-A {
+  text-align: center;
+  border: 2px solid maroon;
+  height: 3rem;
+}
+
+.Block-B {
+  text-align: center;
+  border: 2px solid maroon;
+  height: 3rem;
+}
+
+.sections {
+  display: flex;
+  border: 2px solid rgb(99, 11, 215);
+  flex: 0.5;
+  flex-direction: row;
+}
+
+.Block-C {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  border: 2px solid red;
+}
+
+.Block-D {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  border: 2px solid red;
+}
+
+.Block-E {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  border: 2px solid red;
+}
+
+.section-a {
+  display: flex;
+  border: 2px solid rgb(99, 11, 215);
+  flex: 0.5;
+  flex-direction: row;
+}
+
+.Block-F {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  border: 2px solid red;
+}
+
+.Block-G {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  border: 2px solid red;
+}
+
+/* Task4 */
+
+.display-Container-box {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(37, 13, 95);
+  height: 37rem;
+}
+.Sections {
+  display: flex;
+  border: 2px solid rgb(74, 31, 1);
+  flex: 1;
+}
+.Block-1{
+  text-align: center;
+  display: flex;
+  border: 2px solid green;
+  flex: 0.3;
+  flex-direction: column;
+}
+
+.Block-2{
+  text-align: center;
+  display: flex;
+  border: 2px solid green;
+  flex: 0.3;
+  flex-direction: column;
+}
+
+.Block-3{
+  display: flex;
+  border: 2px solid green;
+  flex: 0.3;
+  flex-direction: column;
+}
+
+.blk-1{
+  text-align: center;
+  display: flex;
+  border: 2px solid rgb(175, 5, 175);
+  flex: 0.3;
+  flex-direction: row;
+}
+
+
+.blk-2{
+  text-align: center;
+  display: flex;
+  border: 2px solid rgb(175, 5, 175);
+  flex: 0.3;
+  flex-direction: row;
+}
+
+
+.blk-3{
+  text-align: center;
+  display: flex;
+  border: 2px solid rgb(175, 5, 175);
+  flex: 0.3;
+  flex-direction: row;
+}
+
+
+.blk-4{
+  text-align: center;
+  display: flex;
+  border: 2px solid rgb(175, 5, 175);
+  flex: 0.3;
+  flex-direction: row;
+}
+
+.Block-4{
+  text-align: center;
+  display: flex;
+  border: 2px solid green;
+  flex: 0.3;
+  flex-direction: column;
+}
+
+/* Task5 */
+
+.Container-box{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(18, 4, 49);
+  height: 37rem;
+}
+.Section-A {
+  display: flex;
+  border: 2px solid rgb(21, 3, 43);
+  flex: 1;
+  flex-direction: row;
+
+}
+
+.B-1{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(247, 8, 203);
+  flex:0.2 ;
+}
+
+.Section-B {
+  display: flex;
+  border: 2px solid rgb(84, 14, 171);
+  flex: 1;
+  flex-direction: column;
+}
+
+.B-2 {
+  flex: 0.1;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.Section-C {
+  display: flex;
+  border: 2px solid rgb(21, 3, 43);
+  flex: 1;
+  flex-direction: row;
+}
+.B-3{
+  flex: 0.2;
+  text-align:center;
+  border: 2px solid blue;
+}
+.Section-D {
+  display: flex;
+  border: 2px solid rgb(92, 79, 107);
+  flex: 1;
+  flex-direction: column;
+}
+.B-4{
+  flex: 0.1;
+  text-align: center;
+  border: 2px solid red;
+}
+.Section-E{
+  display: flex;
+  border: 2px solid rgb(6, 172, 201);
+  flex: 1;
+  flex-direction: row;
+}
+.B-5{
+  flex: 0.4;
+  text-align:center;
+  border: 2px solid black;
+}
+
+.B-6{
+  flex: 0.4;
+  text-align:center;
+  border: 2px solid black;
+}
+.B-7{
+  display: flex;
+  flex: 0.4;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+
+.blk-11{
+  text-align: center;
+  display: flex;
+  border: 2px solid rgb(175, 5, 175);
+  flex: 0.4;
+  flex-direction: row;
+
+}
+
+.blk-22{
+  text-align: center;
+  display: flex;
+  border: 2px solid rgb(175, 5, 175);
+  flex: 0.4;
+  flex-direction: row;
+
+}
+.blk-33{
+  text-align: center;
+  display: flex;
+  border: 2px solid rgb(175, 5, 175);
+  flex: 0.4;
+  flex-direction: row;
+
 }
